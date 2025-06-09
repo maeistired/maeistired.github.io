@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    margin-bottom: 8px;
+    font-family: Barlow,sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.25em;
+}
+
+h3 {
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.35em;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #333;
+    font-weight: normal;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+nav {
+    background-color: #FFF;
+    box-shadow: 0 0 1px #333;
+    display: flex;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 55px;
+
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+nav ul a:hover {
+    color: #dfe7fd;
+    background-color: #333;
+}
+
+.logo a {
+    font-size: 25px;
+}
+
+.logo a:hover {
+    color: #dfe7fd;
+    text-shadow: 0 0 6px #333;
+}
+
+.button {
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 1em;
+}
+
+.button {
+    text-align: center;
+    background-color: #333;
+    font-size: 1em;
+    font-weight: 600;
+    transition: all .2s;
+    box-shadow: 0 0 #0003;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #dfe7fd;
+    box-shadow: 0 8px 20px 2px #0003;
+}
+
+.keeb {
+    width: 650px;
+    padding-top: 5%;
+}
+
+.homehero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.homeherotext {
+    padding: 10%;
+    padding-right: 0%;
+}
+
+.homeheroheading {
+    font-size: 80px;
+    line-height: 100%;
+    font-weight: 650;
+}
+
+.homeheropara {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.hometextright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: 5%;
+    margin-right: 15%;
+    padding-bottom: 5%;
+}
+
+.hometextleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 45%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.wave1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 115px;
+}
+
+.wave1 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.one {
+    background-color: #dfe7fd;
+}
+
+.two {
+    background-color: #fff;
+}
+
+.three {
+    background-color: #dfe7fd;
+}
